@@ -1,10 +1,10 @@
 FROM phpdockerio/php80-fpm:latest
 
-LABEL Maintainer="Hinode labs" \
+LABEL Maintainer="lcantonelli labs" \
       Description="api-base-php-fpm is an alternative PHP FastCGI implementation with some additional features to running API base." \
-      org.label-schema.name="hndlabs/api-base" \
-      org.label-schema.description="Hinode Labs" \
-      org.label-schema.vcs-url="https://gitlab.com/hndlabs/api-base" \
+      org.label-schema.name="lcantonelli/JWT-Authenticated-API-with-Lumen-and-docker" \
+      org.label-schema.description="lcantonelli labs" \
+      org.label-schema.vcs-url="https://github.com/lcantonelli/JWT-Authenticated-API-with-Lumen-and-docker" \
       org.label-schema.schema-version="0.0.1"
 
 WORKDIR /data
